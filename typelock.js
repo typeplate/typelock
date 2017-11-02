@@ -1,3 +1,8 @@
+/*!
+ * TypeLock v1.0.0
+ * ©2017 Typeplate
+ * Licensed under MIT
+ */
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		// AMD module
@@ -10,7 +15,6 @@
 		root.addTypeLock = factory();
 	}
 }(this || window, function () {
-	// Special Thanks To: Tommy Hodgins, Chris Wallis, Mathew Chase.
 	let isRegistered = false;
 	const typeLockOptions = [];
 
